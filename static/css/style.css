@@ -1,5 +1,11 @@
 .container{max-width: 1200px;}
 .font-size-16{font-size: 16px!important;}
 .font-size-30{font-size: 30px!important;}
+.position-relative{position: relative;}
+.bg-icon-left svg{transform: rotate(30deg);position: absolute;left: 8%;bottom: 34%;opacity: 0.1;}
+.bg-icon-right svg{transform: rotate(30deg);position: absolute;right: 8%;bottom: -50%;opacity: 0.9;}
 
 header{overflow: hidden;height: 56px;}
+
+.index-section-2 a{display: block;}
+.index-section-2 a:hover{text-decoration: none;}
