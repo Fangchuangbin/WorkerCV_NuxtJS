@@ -17,7 +17,7 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#">全部</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">热门</a>
+              <a class="dropdown-item" href="#"></a>
               <a class="dropdown-item" href="#">行业</a>
               <a class="dropdown-item" href="#">职位</a>
               <a class="dropdown-item" href="#">高校</a>
