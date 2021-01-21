@@ -255,6 +255,59 @@
               </div>
             </div>
           </div>
+          <div class="row bg-white shadow-sm rounded-lg mt-4 mx-0">
+            <div class="col-12 hot-ranking px-4">
+              <nav class="overflow-hidden pt-3">
+                <h6 class="float-left text-dark">热门招聘</h6>
+                <div class="nav nav-tabs float-right" id="nav-tab" role="tablist">
+                  <a class="nav-link rounded-lg text-dark font-size-14 py-1 ml-2 active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">月</a>
+                  <a class="nav-link rounded-lg text-dark font-size-14 py-1 ml-2" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">周</a>
+                </div>
+              </nav>
+              <div class="tab-content pb-3" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
+                  <ul class="w-100">
+                    <li class="row mt-2 pt-1">
+                      <div class="col-1 pr-0"><em>1</em></div>
+                      <div class="col-10 pl-3"><a href="">
+                        <p class="text-dark font-size-14">如何入门动态规划？3000 字总结</p>
+                        <p class="text-muted font-size-12">近几年来，很多童鞋都希望自己能够到外企工作，外企不...</p>
+                      </a></div>
+                    </li>
+                    <li class="row mt-2 pt-1">
+                      <div class="col-1 pr-0"><em>2</em></div>
+                      <div class="col-10 pl-3"><a href="">
+                        <p class="text-dark font-size-14">如何入门动态规划？3000 字总结</p>
+                        <p class="text-muted font-size-12">近几年来，很多童鞋都希望自己能够到外企工作，外企不...</p>
+                      </a></div>
+                    </li>
+                    <li class="row mt-2 pt-1">
+                      <div class="col-1 pr-0"><em>3</em></div>
+                      <div class="col-10 pl-3"><a href="">
+                        <p class="text-dark font-size-14">如何入门动态规划？3000 字总结</p>
+                        <p class="text-muted font-size-12">近几年来，很多童鞋都希望自己能够到外企工作，外企不...</p>
+                      </a></div>
+                    </li>
+                    <li class="row mt-2 pt-1">
+                      <div class="col-1 pr-0"><em>4</em></div>
+                      <div class="col-10 pl-3"><a href="">
+                        <p class="text-dark font-size-14">如何入门动态规划？3000 字总结</p>
+                        <p class="text-muted font-size-12">近几年来，很多童鞋都希望自己能够到外企工作，外企不...</p>
+                      </a></div>
+                    </li>
+                    <li class="row mt-2 pt-1">
+                      <div class="col-1 pr-0"><em>5</em></div>
+                      <div class="col-10 pl-3"><a href="">
+                        <p class="text-dark font-size-14">如何入门动态规划？3000 字总结</p>
+                        <p class="text-muted font-size-12">近几年来，很多童鞋都希望自己能够到外企工作，外企不...</p>
+                      </a></div>
+                    </li>
+                  </ul>
+                </div>
+                <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">月</div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
