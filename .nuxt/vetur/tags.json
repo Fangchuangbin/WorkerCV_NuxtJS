@@ -1,4 +1,10 @@
 {
+  "Footer": {
+    "description": "Auto imported from F:/WorkerCV_NuxtJS/components/Footer.vue"
+  },
+  "LazyFooter": {
+    "description": "Auto imported from F:/WorkerCV_NuxtJS/components/Footer.vue"
+  },
   "Header": {
     "description": "Auto imported from F:/WorkerCV_NuxtJS/components/Header.vue"
   },

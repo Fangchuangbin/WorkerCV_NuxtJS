@@ -1,19 +1,23 @@
 *{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+::selection{background: rgba(108,117,125,0.4);}
 body{background-color: #f8f9fa;}
 p{margin: 0;}
 a:hover{text-decoration: none;}
 h1,h2,h3,h4,h5,h6{margin: 0;}
 ol,ul,li{padding: 0;margin: 0;list-style-type: none;}
-.container{max-width: 1500px;}
+.container{max-width: 1480px;}
+.container-sm{max-width: 1000px;}
 .display-block{display: block;}
 .font-size-12{font-size: 12px!important;}
 .font-size-14{font-size: 14px!important;}
 .font-size-16{font-size: 16px!important;}
 .font-size-30{font-size: 30px!important;}
 .position-relative{position: relative;}
-.bg-black{background-color: #212529;}
+.badge-white{background: #fff;color: #343a40;}
+.bg-black{background: #212529;}
 .bg-icon-left svg{transform: rotate(30deg);position: absolute;left: 12.4%;bottom: 20%;opacity: 0.1;}
 .bg-icon-right svg{transform: rotate(30deg);position: absolute;right: 12.4%;top: 20%;opacity: 0.9;}
+.nuxt-link-exact-active{color: #fff!important;}
 
 header{overflow: hidden;height: 56px;}
 .index-section-2 .recommend-editer li{margin-top: 10px;margin-bottom: 18px;overflow: hidden;}
@@ -33,3 +37,13 @@ header{overflow: hidden;height: 56px;}
 .index-section-2 .hot-ranking ul li:nth-child(2) em{color: #ffc107;}
 .index-section-2 .hot-ranking ul li:nth-child(3) em{color: #ffc107;}
 .index-section-2 .hot-ranking ul li p{height: 21px;line-height: 21px;overflow: hidden;display: block;text-overflow: ellipsis;white-space: nowrap;}
+
+.footer p{line-height: 30px;}
+.footer p a{font-size: 14px;color: #6c757d!important;transition: 0.3s;}
+.footer p a:hover{color: #f8f9fa !important;}
+
+.template-section-1 .template-nav a{border: 0;border-bottom: 2px solid #fff;}
+.template-section-1 .template-nav a:hover{border-color: #fff;color: #343a40!important;}
+.template-section-1 .template-nav .active{font-weight: bold;color: #343a40!important;border-color: #343a40;}
+.template-section-2 .template-tag a{font-weight: normal!important;margin-bottom: 8px;}
+.template-section-2 .template-pagination .active a{color: #fff!important;background: #343a40;border-color: #343a40;}

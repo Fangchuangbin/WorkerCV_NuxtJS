@@ -4,6 +4,15 @@ import { normalizeURL, decode } from '@nuxt/ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+const _8ae141f0 = () => interopDefault(import('..\\pages\\ranking\\index.vue' /* webpackChunkName: "pages/ranking/index" */))
+const _12cdef00 = () => interopDefault(import('..\\pages\\recruit\\index.vue' /* webpackChunkName: "pages/recruit/index" */))
+const _788feac8 = () => interopDefault(import('..\\pages\\template\\index.vue' /* webpackChunkName: "pages/template/index" */))
+const _013a7684 = () => interopDefault(import('..\\pages\\tool\\index.vue' /* webpackChunkName: "pages/tool/index" */))
+const _acfea522 = () => interopDefault(import('..\\pages\\topic\\index.vue' /* webpackChunkName: "pages/topic/index" */))
+const _770bb168 = () => interopDefault(import('..\\pages\\recruit\\_id.vue' /* webpackChunkName: "pages/recruit/_id" */))
+const _f87ff7f8 = () => interopDefault(import('..\\pages\\template\\_id.vue' /* webpackChunkName: "pages/template/_id" */))
+const _61b6dea6 = () => interopDefault(import('..\\pages\\tool\\_id.vue' /* webpackChunkName: "pages/tool/_id" */))
+const _e22d80d2 = () => interopDefault(import('..\\pages\\topic\\_id.vue' /* webpackChunkName: "pages/topic/_id" */))
 const _5891f9d6 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
@@ -23,6 +32,42 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
+    path: "/ranking",
+    component: _8ae141f0,
+    name: "ranking"
+  }, {
+    path: "/recruit",
+    component: _12cdef00,
+    name: "recruit"
+  }, {
+    path: "/template",
+    component: _788feac8,
+    name: "template"
+  }, {
+    path: "/tool",
+    component: _013a7684,
+    name: "tool"
+  }, {
+    path: "/topic",
+    component: _acfea522,
+    name: "topic"
+  }, {
+    path: "/recruit/:id",
+    component: _770bb168,
+    name: "recruit-id"
+  }, {
+    path: "/template/:id",
+    component: _f87ff7f8,
+    name: "template-id"
+  }, {
+    path: "/tool/:id",
+    component: _61b6dea6,
+    name: "tool-id"
+  }, {
+    path: "/topic/:id",
+    component: _e22d80d2,
+    name: "topic-id"
+  }, {
     path: "/",
     component: _5891f9d6,
     name: "index"
