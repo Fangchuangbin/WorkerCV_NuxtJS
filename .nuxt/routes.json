@@ -3,70 +3,60 @@
     "name": "ranking",
     "path": "/ranking",
     "component": "F:\\\\WorkerCV_NuxtJS\\\\pages\\\\ranking\\\\index.vue",
-    "chunkName": "pages/ranking/index",
-    "_name": "_8ae141f0"
+    "chunkName": "pages/ranking/index"
   },
   {
     "name": "recruit",
     "path": "/recruit",
     "component": "F:\\\\WorkerCV_NuxtJS\\\\pages\\\\recruit\\\\index.vue",
-    "chunkName": "pages/recruit/index",
-    "_name": "_12cdef00"
+    "chunkName": "pages/recruit/index"
   },
   {
     "name": "template",
     "path": "/template",
     "component": "F:\\\\WorkerCV_NuxtJS\\\\pages\\\\template\\\\index.vue",
-    "chunkName": "pages/template/index",
-    "_name": "_788feac8"
+    "chunkName": "pages/template/index"
   },
   {
     "name": "tool",
     "path": "/tool",
     "component": "F:\\\\WorkerCV_NuxtJS\\\\pages\\\\tool\\\\index.vue",
-    "chunkName": "pages/tool/index",
-    "_name": "_013a7684"
+    "chunkName": "pages/tool/index"
   },
   {
     "name": "topic",
     "path": "/topic",
     "component": "F:\\\\WorkerCV_NuxtJS\\\\pages\\\\topic\\\\index.vue",
-    "chunkName": "pages/topic/index",
-    "_name": "_acfea522"
+    "chunkName": "pages/topic/index"
   },
   {
     "name": "recruit-id",
     "path": "/recruit/:id",
     "component": "F:\\\\WorkerCV_NuxtJS\\\\pages\\\\recruit\\\\_id.vue",
-    "chunkName": "pages/recruit/_id",
-    "_name": "_770bb168"
+    "chunkName": "pages/recruit/_id"
   },
   {
     "name": "template-id",
     "path": "/template/:id",
     "component": "F:\\\\WorkerCV_NuxtJS\\\\pages\\\\template\\\\_id.vue",
-    "chunkName": "pages/template/_id",
-    "_name": "_f87ff7f8"
+    "chunkName": "pages/template/_id"
   },
   {
     "name": "tool-id",
     "path": "/tool/:id",
     "component": "F:\\\\WorkerCV_NuxtJS\\\\pages\\\\tool\\\\_id.vue",
-    "chunkName": "pages/tool/_id",
-    "_name": "_61b6dea6"
+    "chunkName": "pages/tool/_id"
   },
   {
     "name": "topic-id",
     "path": "/topic/:id",
     "component": "F:\\\\WorkerCV_NuxtJS\\\\pages\\\\topic\\\\_id.vue",
-    "chunkName": "pages/topic/_id",
-    "_name": "_e22d80d2"
+    "chunkName": "pages/topic/_id"
   },
   {
     "name": "index",
     "path": "/",
     "component": "F:\\\\WorkerCV_NuxtJS\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_5891f9d6"
+    "chunkName": "pages/index"
   }
 ]
