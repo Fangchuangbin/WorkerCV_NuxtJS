@@ -103,36 +103,36 @@
             </svg>推荐模板<a class="float-right font-size-14 text-muted" href="">更多 +</a></h6>
             <ul class="row recommend-editer">
               <li class="col-12 col-md-3 overflow-hidden">
-                <div class="card border-light bg-light rounded-lg"><a href="">
+                <div class="card bg-white rounded-lg"><a href="">
                   <img src="https://prod-file-uploaded.oss-cn-beijing.aliyuncs.com/template_resumes/c6d424f0-d7d1-11ea-a54c-47d0975e9829.png?imageMogr2/auto-orient/thumbnail/560x792/interlace/1/blur/1x0/quality/100" class="card-img-top" alt="...">
-                  <div class="card-body px-3 py-2 border-top border-light">
+                  <div class="card-body px-3 py-2 border-top">
                     <p class="card-text text-dark title font-size-14">程序员简历模板</p>
                     <p class="card-text text-dark"><span class="badge badge-success mr-2">免费</span><span class="badge badge-dark">程序员</span></p>
                   </div>
                 </a></div>
               </li>
               <li class="col-12 col-md-3 overflow-hidden">
-                <div class="card border-light bg-light rounded-lg"><a href="">
+                <div class="card bg-light rounded-lg"><a href="">
                   <img src="https://prod-file-uploaded.oss-cn-beijing.aliyuncs.com/template_resumes/c6d424f0-d7d1-11ea-a54c-47d0975e9829.png?imageMogr2/auto-orient/thumbnail/560x792/interlace/1/blur/1x0/quality/100" class="card-img-top" alt="...">
-                  <div class="card-body px-3 py-2 border-top border-light">
+                  <div class="card-body px-3 py-2 border-top">
                     <p class="card-text text-dark title font-size-14">财务简历模板</p>
                     <p class="card-text text-dark"><span class="badge badge-warning mr-2">会员</span><span class="badge badge-dark">财务管理</span></p>
                   </div>
                 </a></div>
               </li>
               <li class="col-12 col-md-3 overflow-hidden">
-                <div class="card border-light bg-light rounded-lg"><a href="">
+                <div class="card bg-light rounded-lg"><a href="">
                   <img src="https://prod-file-uploaded.oss-cn-beijing.aliyuncs.com/template_resumes/c6d424f0-d7d1-11ea-a54c-47d0975e9829.png?imageMogr2/auto-orient/thumbnail/560x792/interlace/1/blur/1x0/quality/100" class="card-img-top" alt="...">
-                  <div class="card-body px-3 py-2 border-top border-light">
+                  <div class="card-body px-3 py-2 border-top">
                     <p class="card-text text-dark title font-size-14">Java开发简历模板</p>
                     <p class="card-text text-dark"><span class="badge badge-warning mr-2">会员</span><span class="badge badge-dark">Java</span></p>
                   </div>
                 </a></div>
               </li>
               <li class="col-12 col-md-3 overflow-hidden">
-                <div class="card border-light bg-light rounded-lg"><a href="">
+                <div class="card bg-light rounded-lg"><a href="">
                   <img src="https://prod-file-uploaded.oss-cn-beijing.aliyuncs.com/template_resumes/c6d424f0-d7d1-11ea-a54c-47d0975e9829.png?imageMogr2/auto-orient/thumbnail/560x792/interlace/1/blur/1x0/quality/100" class="card-img-top" alt="...">
-                  <div class="card-body px-3 py-2 border-top border-light">
+                  <div class="card-body px-3 py-2 border-top">
                     <p class="card-text text-dark title font-size-14">Android开发简历模板</p>
                     <p class="card-text text-dark"><span class="badge badge-warning mr-2">会员</span><span class="badge badge-dark">Android</span></p>
                   </div>
@@ -201,6 +201,9 @@
             <a class="col-6 btn btn-white py-3 text-success" href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="mb-1 mr-2 bi bi-file-earmark-break-fill" viewBox="0 0 16 16">
               <path d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V9H2V2a2 2 0 0 1 2-2zm5.5 1.5v2a1 1 0 0 0 1 1h2l-3-3zM2 12h12v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-2zM.5 10a.5.5 0 0 0 0 1h15a.5.5 0 0 0 0-1H.5z"/>
             </svg>格式转换</a>
+            <!-- <a class="col-6 btn btn-white py-3 text-success" href=""><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="mb-1 mr-2 bi bi-file-earmark-break-fill" viewBox="0 0 16 16">
+              <path d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V9H2V2a2 2 0 0 1 2-2zm5.5 1.5v2a1 1 0 0 0 1 1h2l-3-3zM2 12h12v2a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-2zM.5 10a.5.5 0 0 0 0 1h15a.5.5 0 0 0 0-1H.5z"/>
+            </svg>作品托管</a> -->
           </div>
           <div class="row bg-white shadow-sm rounded-lg mt-4 mx-0">
             <div class="col-12 hot-ranking px-4">
@@ -216,35 +219,35 @@
                   <ul class="w-100">
                     <li class="row mt-2 pt-1">
                       <div class="col-1 pr-0"><em>1</em></div>
-                      <div class="col-10 pl-3"><a href="">
+                      <div class="col-11 pl-3"><a href="">
                         <p class="text-dark font-size-14">如何入门动态规划？3000 字总结</p>
                         <p class="text-muted font-size-12">近几年来，很多童鞋都希望自己能够到外企工作，外企不...</p>
                       </a></div>
                     </li>
                     <li class="row mt-2 pt-1">
                       <div class="col-1 pr-0"><em>2</em></div>
-                      <div class="col-10 pl-3"><a href="">
+                      <div class="col-11 pl-3"><a href="">
                         <p class="text-dark font-size-14">如何入门动态规划？3000 字总结</p>
                         <p class="text-muted font-size-12">近几年来，很多童鞋都希望自己能够到外企工作，外企不...</p>
                       </a></div>
                     </li>
                     <li class="row mt-2 pt-1">
                       <div class="col-1 pr-0"><em>3</em></div>
-                      <div class="col-10 pl-3"><a href="">
+                      <div class="col-11 pl-3"><a href="">
                         <p class="text-dark font-size-14">如何入门动态规划？3000 字总结</p>
                         <p class="text-muted font-size-12">近几年来，很多童鞋都希望自己能够到外企工作，外企不...</p>
                       </a></div>
                     </li>
                     <li class="row mt-2 pt-1">
                       <div class="col-1 pr-0"><em>4</em></div>
-                      <div class="col-10 pl-3"><a href="">
+                      <div class="col-11 pl-3"><a href="">
                         <p class="text-dark font-size-14">如何入门动态规划？3000 字总结</p>
                         <p class="text-muted font-size-12">近几年来，很多童鞋都希望自己能够到外企工作，外企不...</p>
                       </a></div>
                     </li>
                     <li class="row mt-2 pt-1">
                       <div class="col-1 pr-0"><em>5</em></div>
-                      <div class="col-10 pl-3"><a href="">
+                      <div class="col-11 pl-3"><a href="">
                         <p class="text-dark font-size-14">如何入门动态规划？3000 字总结</p>
                         <p class="text-muted font-size-12">近几年来，很多童鞋都希望自己能够到外企工作，外企不...</p>
                       </a></div>
@@ -269,35 +272,35 @@
                   <ul class="w-100">
                     <li class="row mt-2 pt-1">
                       <div class="col-1 pr-0"><em>1</em></div>
-                      <div class="col-10 pl-3"><a href="">
+                      <div class="col-11 pl-3"><a href="">
                         <p class="text-dark font-size-14">如何入门动态规划？3000 字总结</p>
                         <p class="text-muted font-size-12">近几年来，很多童鞋都希望自己能够到外企工作，外企不...</p>
                       </a></div>
                     </li>
                     <li class="row mt-2 pt-1">
                       <div class="col-1 pr-0"><em>2</em></div>
-                      <div class="col-10 pl-3"><a href="">
+                      <div class="col-11 pl-3"><a href="">
                         <p class="text-dark font-size-14">如何入门动态规划？3000 字总结</p>
                         <p class="text-muted font-size-12">近几年来，很多童鞋都希望自己能够到外企工作，外企不...</p>
                       </a></div>
                     </li>
                     <li class="row mt-2 pt-1">
                       <div class="col-1 pr-0"><em>3</em></div>
-                      <div class="col-10 pl-3"><a href="">
+                      <div class="col-11 pl-3"><a href="">
                         <p class="text-dark font-size-14">如何入门动态规划？3000 字总结</p>
                         <p class="text-muted font-size-12">近几年来，很多童鞋都希望自己能够到外企工作，外企不...</p>
                       </a></div>
                     </li>
                     <li class="row mt-2 pt-1">
                       <div class="col-1 pr-0"><em>4</em></div>
-                      <div class="col-10 pl-3"><a href="">
+                      <div class="col-11 pl-3"><a href="">
                         <p class="text-dark font-size-14">如何入门动态规划？3000 字总结</p>
                         <p class="text-muted font-size-12">近几年来，很多童鞋都希望自己能够到外企工作，外企不...</p>
                       </a></div>
                     </li>
                     <li class="row mt-2 pt-1">
                       <div class="col-1 pr-0"><em>5</em></div>
-                      <div class="col-10 pl-3"><a href="">
+                      <div class="col-11 pl-3"><a href="">
                         <p class="text-dark font-size-14">如何入门动态规划？3000 字总结</p>
                         <p class="text-muted font-size-12">近几年来，很多童鞋都希望自己能够到外企工作，外企不...</p>
                       </a></div>

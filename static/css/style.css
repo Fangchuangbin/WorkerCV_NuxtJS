@@ -23,8 +23,6 @@ header{overflow: hidden;height: 56px;}
 .index-section-2 .recommend-editer li{margin-top: 10px;margin-bottom: 18px;overflow: hidden;}
 .index-section-2 .recommend-editer li .card{transition: 0.3s;}
 .index-section-2 .recommend-editer li .card-body{transition: 0.3s;}
-.index-section-2 .recommend-editer li:hover .card{border-color: #d9dadb!important;}
-.index-section-2 .recommend-editer li:hover .card-body{border-color: #d9dadb!important;}
 .index-section-2 .recommend-editer li .card-body .title{height: 21px;line-height: 21px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
 .index-section-2 .new-article li{margin-top: 10px;margin-bottom: 10px;}
 .index-section-2 .new-article li a{display: block;overflow: hidden;}
