@@ -70,7 +70,7 @@ export default {
     if(process.client) {
       this.pathname = document.location.pathname.split('/')[1]
     }
-    //console.log(this.pathname)
+    
   }
 }
 </script>
