@@ -319,7 +319,20 @@
 </template>
 
 <script>
-export default {
+import { getHead } from '@/api/settings'
 
+export default {
+  data() {
+    return {
+
+    }
+  },
+  mounted() {
+    getHead().then(res => {
+        console.log(res)
+      }).catch(err => {
+        console.log(err)
+      })
+  }
 }
 </script>

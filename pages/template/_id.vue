@@ -68,6 +68,10 @@
           </div>
           <div class="col-md-6 mb-4 mb-md-0">
             <img class="rounded-lg shadow-sm" width="100%" src="https://prod-file-uploaded.oss-cn-beijing.aliyuncs.com/template_resumes/c6d424f0-d7d1-11ea-a54c-47d0975e9829.png" alt="">
+            <div class="mt-4 row overflow-hidden text-dark">
+              <p class="col-md font-size-14 mb-2 mb-md-0">上一页：<a class="text-dark" href="">Web前端开发工程师简历模板</a></p>
+              <p class="col-md font-size-14 text-md-right">下一页：<a class="text-dark" href="">注册会计师简历模板</a></p>
+            </div>
           </div>
           <div class="col-md-4">
             <div class="bg-white shadow-sm overflow-hidden rounded-lg p-4">
