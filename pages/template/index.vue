@@ -103,7 +103,7 @@
         </div>
         <ul class="row mt-2">
           <li class="col-12 col-md-2 py-1 mb-3 overflow-hidden">
-            <div class="card border-0 shadow-sm bg-white rounded-lg"><a href="/template/20210122.html">
+            <div class="card border-0 shadow-sm bg-white rounded-lg"><a href="/template/20210122">
               <img src="https://prod-file-uploaded.oss-cn-beijing.aliyuncs.com/template_resumes/c6d424f0-d7d1-11ea-a54c-47d0975e9829.png?imageMogr2/auto-orient/thumbnail/560x792/interlace/1/blur/1x0/quality/100" class="card-img-top" alt="...">
               <div class="card-body px-3 py-2 border-light border-top">
                 <p class="card-text text-dark title font-size-14">程序员简历模板</p>

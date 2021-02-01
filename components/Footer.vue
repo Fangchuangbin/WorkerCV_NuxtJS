@@ -9,21 +9,21 @@
           <p class="float-left float-md-none mr-3 mr-md-0"><a class="text-white" href="">关于我们</a></p>
           <p class="float-left float-md-none mr-3 mr-md-0"><a class="text-white" href="">关于我们</a></p>
         </div>
-        <div class="col-12 col-md mt-3 mt-md-0">
+        <div class="col-12 col-md mt-3 mt-md-0 d-none d-md-block">
           <h6 class="text-light mb-2">极速简历</h6>
           <p class="float-left float-md-none mr-3 mr-md-0"><a class="text-white" href="">关于我们</a></p>
           <p class="float-left float-md-none mr-3 mr-md-0"><a class="text-white" href="">关于我们</a></p>
           <p class="float-left float-md-none mr-3 mr-md-0"><a class="text-white" href="">关于我们</a></p>
           <p class="float-left float-md-none mr-3 mr-md-0"><a class="text-white" href="">关于我们</a></p>
         </div>
-        <div class="col-12 col-md mt-3 mt-md-0">
+        <div class="col-12 col-md mt-3 mt-md-0 d-none d-md-block">
           <h6 class="text-light mb-2">极速简历</h6>
           <p class="float-left float-md-none mr-3 mr-md-0"><a class="text-white" href="">关于我们</a></p>
           <p class="float-left float-md-none mr-3 mr-md-0"><a class="text-white" href="">关于我们</a></p>
           <p class="float-left float-md-none mr-3 mr-md-0"><a class="text-white" href="">关于我们</a></p>
           <p class="float-left float-md-none mr-3 mr-md-0"><a class="text-white" href="">关于我们</a></p>
         </div>
-        <div class="col-12 col-md mt-3 mt-md-0">
+        <div class="col-12 col-md mt-3 mt-md-0 d-none d-md-block">
           <h6 class="text-light mb-2">极速简历</h6>
           <p class="float-left float-md-none mr-3 mr-md-0"><a class="text-white" href="">关于我们</a></p>
           <p class="float-left float-md-none mr-3 mr-md-0"><a class="text-white" href="">关于我们</a></p>

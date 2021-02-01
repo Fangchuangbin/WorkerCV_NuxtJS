@@ -15,8 +15,8 @@ ol,ul,li{padding: 0;margin: 0;list-style-type: none;}
 .position-relative{position: relative;}
 .badge-white{background: #fff;color: #343a40;}
 .bg-black{background: #212529;}
-.bg-icon-left svg{transform: rotate(30deg);position: absolute;left: 12.4%;bottom: 20%;opacity: 0.1;}
-.bg-icon-right svg{transform: rotate(30deg);position: absolute;right: 12.4%;top: 20%;opacity: 0.9;}
+.bg-icon-left svg{transform: rotate(30deg);position: absolute;left: 12.4%;bottom: 25%;opacity: 0.1;}
+.bg-icon-right svg{transform: rotate(30deg);position: absolute;right: 12.4%;top: 25%;opacity: 0.9;}
 .nuxt-link-exact-active{color: #fff!important;}
 
 header{overflow: hidden;height: 56px;}
@@ -45,3 +45,6 @@ header{overflow: hidden;height: 56px;}
 .template-section-1 .template-nav .active{font-weight: bold;color: #343a40!important;border-color: #343a40;}
 .template-section-2 .template-tag a{font-weight: normal!important;margin-bottom: 8px;}
 .template-section-2 .template-pagination .active a{color: #fff!important;background: #343a40;border-color: #343a40;}
+
+.topic-section-1 .new-article li{margin-top: 10px;margin-bottom: 10px;}
+.topic-section-1 .new-article li a{display: block;overflow: hidden;}

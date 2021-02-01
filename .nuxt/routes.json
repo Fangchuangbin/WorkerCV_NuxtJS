@@ -42,11 +42,11 @@
     "_name": "_770bb168"
   },
   {
-    "name": "template-id",
-    "path": "/template/:id",
-    "component": "F:\\\\WorkerCV_NuxtJS\\\\pages\\\\template\\\\_id.vue",
-    "chunkName": "pages/template/_id",
-    "_name": "_f87ff7f8"
+    "name": "template-tag",
+    "path": "/template/:tag",
+    "component": "F:\\\\WorkerCV_NuxtJS\\\\pages\\\\template\\\\_tag\\\\index.vue",
+    "chunkName": "pages/template/_tag/index",
+    "_name": "_1c814be1"
   },
   {
     "name": "tool-id",
@@ -61,6 +61,20 @@
     "component": "F:\\\\WorkerCV_NuxtJS\\\\pages\\\\topic\\\\_id.vue",
     "chunkName": "pages/topic/_id",
     "_name": "_e22d80d2"
+  },
+  {
+    "name": "template-tag-p-tagPage",
+    "path": "/template/:tag/p/:tagPage?",
+    "component": "F:\\\\WorkerCV_NuxtJS\\\\pages\\\\template\\\\_tag\\\\p\\\\_tagPage.vue",
+    "chunkName": "pages/template/_tag/p/_tagPage",
+    "_name": "_5fedb9c9"
+  },
+  {
+    "name": "template-tag-id",
+    "path": "/template/:tag/:id",
+    "component": "F:\\\\WorkerCV_NuxtJS\\\\pages\\\\template\\\\_tag\\\\_id.vue",
+    "chunkName": "pages/template/_tag/_id",
+    "_name": "_6202d289"
   },
   {
     "name": "index",

@@ -1,9 +1,13 @@
 <template>
   <div id="__ranking">
-      <Header />
-    <div>
-      <h1>Topic</h1>
-    </div>
+    <Header />
+    <section class="topic-section-1 bg-white shadow-sm py-4 overflow-hidden">
+      <div class="container">
+        <div class="row">
+
+        </div>
+      </div>
+    </section>
     <Footer />
   </div>
 </template>
