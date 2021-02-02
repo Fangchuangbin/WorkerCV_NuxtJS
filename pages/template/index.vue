@@ -50,8 +50,8 @@
         <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">
           <div class="row">
             <div class="col-12 mt-1 template-tag">
-              <a class="badge badge-white p-2 px-3 mr-1 rounded-pill shadow-sm" href="">平面设计</a>
-              <a class="badge badge-white p-2 px-3 mr-1 rounded-pill shadow-sm" href="">Java</a>
+              <a class="badge badge-white p-2 px-3 mr-1 rounded-pill shadow-sm" href="/template/pmsj">平面设计</a>
+              <a class="badge badge-white p-2 px-3 mr-1 rounded-pill shadow-sm" href="/template/java">Java</a>
               <a class="badge badge-white p-2 px-3 mr-1 rounded-pill shadow-sm" href="">Web前端</a>
               <a class="badge badge-white p-2 px-3 mr-1 rounded-pill shadow-sm" href="">PHP</a>
               <a class="badge badge-white p-2 px-3 mr-1 rounded-pill shadow-sm" href="">金融工程</a>
