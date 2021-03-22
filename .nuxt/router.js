@@ -4,18 +4,18 @@ import { normalizeURL, decode } from '@nuxt/ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _8ae141f0 = () => interopDefault(import('..\\pages\\ranking\\index.vue' /* webpackChunkName: "pages/ranking/index" */))
-const _12cdef00 = () => interopDefault(import('..\\pages\\recruit\\index.vue' /* webpackChunkName: "pages/recruit/index" */))
-const _788feac8 = () => interopDefault(import('..\\pages\\template\\index.vue' /* webpackChunkName: "pages/template/index" */))
-const _013a7684 = () => interopDefault(import('..\\pages\\tool\\index.vue' /* webpackChunkName: "pages/tool/index" */))
-const _acfea522 = () => interopDefault(import('..\\pages\\topic\\index.vue' /* webpackChunkName: "pages/topic/index" */))
-const _770bb168 = () => interopDefault(import('..\\pages\\recruit\\_id.vue' /* webpackChunkName: "pages/recruit/_id" */))
-const _1c814be1 = () => interopDefault(import('..\\pages\\template\\_tag\\index.vue' /* webpackChunkName: "pages/template/_tag/index" */))
-const _61b6dea6 = () => interopDefault(import('..\\pages\\tool\\_id.vue' /* webpackChunkName: "pages/tool/_id" */))
-const _e22d80d2 = () => interopDefault(import('..\\pages\\topic\\_id.vue' /* webpackChunkName: "pages/topic/_id" */))
-const _5fedb9c9 = () => interopDefault(import('..\\pages\\template\\_tag\\p\\_tagPage.vue' /* webpackChunkName: "pages/template/_tag/p/_tagPage" */))
-const _6202d289 = () => interopDefault(import('..\\pages\\template\\_tag\\_id.vue' /* webpackChunkName: "pages/template/_tag/_id" */))
-const _5891f9d6 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _0117d169 = () => interopDefault(import('..\\pages\\ranking\\index.vue' /* webpackChunkName: "pages/ranking/index" */))
+const _59566161 = () => interopDefault(import('..\\pages\\recruit\\index.vue' /* webpackChunkName: "pages/recruit/index" */))
+const _4e3de45b = () => interopDefault(import('..\\pages\\template\\index.vue' /* webpackChunkName: "pages/template/index" */))
+const _1a2155fd = () => interopDefault(import('..\\pages\\tool\\index.vue' /* webpackChunkName: "pages/tool/index" */))
+const _32d777e0 = () => interopDefault(import('..\\pages\\topic\\index.vue' /* webpackChunkName: "pages/topic/index" */))
+const _97c16fee = () => interopDefault(import('..\\pages\\recruit\\_id.vue' /* webpackChunkName: "pages/recruit/_id" */))
+const _e172cb40 = () => interopDefault(import('..\\pages\\template\\_tag\\index.vue' /* webpackChunkName: "pages/template/_tag/index" */))
+const _55d298b6 = () => interopDefault(import('..\\pages\\tool\\_id.vue' /* webpackChunkName: "pages/tool/_id" */))
+const _f0f7eb10 = () => interopDefault(import('..\\pages\\topic\\_id.vue' /* webpackChunkName: "pages/topic/_id" */))
+const _4f37ed08 = () => interopDefault(import('..\\pages\\template\\_tag\\p\\_tagPage.vue' /* webpackChunkName: "pages/template/_tag/p/_tagPage" */))
+const _1e77b4c8 = () => interopDefault(import('..\\pages\\template\\_tag\\_id.vue' /* webpackChunkName: "pages/template/_tag/_id" */))
+const _44ea2655 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -35,51 +35,51 @@ export const routerOptions = {
 
   routes: [{
     path: "/ranking",
-    component: _8ae141f0,
+    component: _0117d169,
     name: "ranking"
   }, {
     path: "/recruit",
-    component: _12cdef00,
+    component: _59566161,
     name: "recruit"
   }, {
     path: "/template",
-    component: _788feac8,
+    component: _4e3de45b,
     name: "template"
   }, {
     path: "/tool",
-    component: _013a7684,
+    component: _1a2155fd,
     name: "tool"
   }, {
     path: "/topic",
-    component: _acfea522,
+    component: _32d777e0,
     name: "topic"
   }, {
     path: "/recruit/:id",
-    component: _770bb168,
+    component: _97c16fee,
     name: "recruit-id"
   }, {
     path: "/template/:tag",
-    component: _1c814be1,
+    component: _e172cb40,
     name: "template-tag"
   }, {
     path: "/tool/:id",
-    component: _61b6dea6,
+    component: _55d298b6,
     name: "tool-id"
   }, {
     path: "/topic/:id",
-    component: _e22d80d2,
+    component: _f0f7eb10,
     name: "topic-id"
   }, {
     path: "/template/:tag/p/:tagPage?",
-    component: _5fedb9c9,
+    component: _4f37ed08,
     name: "template-tag-p-tagPage"
   }, {
     path: "/template/:tag/:id",
-    component: _6202d289,
+    component: _1e77b4c8,
     name: "template-tag-id"
   }, {
     path: "/",
-    component: _5891f9d6,
+    component: _44ea2655,
     name: "index"
   }],
 

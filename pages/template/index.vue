@@ -203,7 +203,7 @@
           </li>
         </ul>
         <nav class="template-pagination mt-1" aria-label="Page navigation example">
-          <ul class="pagination">
+          <ul class="pagination font-size-14">
             <li class="page-item"><a class="page-link text-dark" href="#">上一页</a></li>
             <li class="page-item active" aria-current="page"><a class="page-link text-dark" href="#">1</a></li>
             <li class="page-item"><a class="page-link text-dark" href="#">2</a></li>
