@@ -40,7 +40,7 @@
       </div>
       <div class="row">
         <div class="col-12 row text-light font-size-14 mt-3 pt-3 border-top border-dark">
-          <p class="col-md-6 float-left">&copy; Copyright 2021 极速简历 WorkerCV</p>
+          <p class="col-md-6 float-left">&copy; Copyright 2021 WorkerCV, All Rights Reserved.</p>
           <p class="col-md-6 text-md-right text-sm-none">
             <a class="ml-md-2" href="">建议反馈</a>
             <a class="ml-2" href="">广告合作</a>

@@ -44,7 +44,7 @@
               <a href="">Java简历模板</a>
               <a href="">Java简历模板</a>
             </div>
-            <p @click="tagLinkButton($event, 1)" class="button">+ 更多</p>
+            <p @click="tagLinkButton($event, 1)" class="button" v-text="tagLink1 === true ? '^ 收回' : '+ 更多'"></p>
           </div>
           <div class="col-12 d-none d-md-block">
             <p class="title float-left mr-1">推荐：</p>
@@ -63,7 +63,7 @@
               <a href="">医药</a>
               <a href="">保险</a>
             </div>
-            <p @click="tagLinkButton($event, 2)" class="button">+ 更多</p>
+            <p @click="tagLinkButton($event, 2)" class="button" v-text="tagLink2 === true ? '^ 收回' : '+ 更多'"></p>
           </div>
           <div class="col-12 d-none d-md-block">
             <p class="title float-left mr-1">职位：</p>
@@ -82,7 +82,7 @@
               <a href="">Java简历模板</a>
               <a href="">Java简历模板</a>
             </div>
-            <p @click="tagLinkButton($event, 3)" class="button">+ 更多</p>
+            <p @click="tagLinkButton($event, 3)" class="button" v-text="tagLink3 === true ? '^ 收回' : '+ 更多'"></p>
           </div>
           <div class="col-12 d-none d-md-block">
             <p class="title float-left mr-1">高校：</p>
@@ -101,7 +101,7 @@
               <a href="">Java简历模板</a>
               <a href="">Java简历模板</a>
             </div>
-            <p @click="tagLinkButton($event, 4)" class="button">+ 更多</p>
+            <p @click="tagLinkButton($event, 4)" class="button" v-text="tagLink3 === true ? '^ 收回' : '+ 更多'"></p>
           </div>
         </div>
       </div>
@@ -119,7 +119,7 @@ export default {
   data() {
     return {
       paramsId: this.$route.params.tag,
-      tagLink1: false,
+      tagLink1: true,
       tagLink2: false,
       tagLink3: false,
       tagLink4: false

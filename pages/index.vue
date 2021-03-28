@@ -149,7 +149,7 @@
                   <div class="media-body col-12">
                     <h6>外企面试七大忌讳解析 你占了几条？</h6>
                     <p class="font-size-14 text-muted mt-2">近几年来，很多童鞋都希望自己能够到外企工作，外企不但名声好，工资福利待遇都不错，但又苦于不清楚外企面试常见问题...</p>
-                    <p><span class="badge badge-success mr-2 mt-2">外企</span><span class="badge badge-secondary">来源：贝壳找房</span></p>
+                    <p><span class="badge badge-success mr-2 mt-2">外企</span><span class="badge badge-dark">来源：贝壳找房</span></p>
                   </div>
                 </div>
               </a></li>
@@ -158,7 +158,7 @@
                   <div class="media-body col-12">
                     <h6>关于商标注册，下列哪个表述是错误的（）</h6>
                     <p class="font-size-14 text-muted mt-2">近几年来，很多童鞋都希望自己能够到外企工作，外企不但名声好，工资福利待遇都不错，但又苦于不清楚外企面试常见问题...</p>
-                    <p><span class="badge badge-success mr-2 mt-2">法务</span><span class="badge badge-secondary">来源：京东</span></p>
+                    <p><span class="badge badge-success mr-2 mt-2">法务</span><span class="badge badge-dark">来源：京东</span></p>
                   </div>
                 </div>
               </a></li>
@@ -208,7 +208,7 @@
           <div class="row bg-white shadow-sm rounded-lg mt-4 mx-0">
             <div class="col-12 hot-ranking px-4">
               <nav class="overflow-hidden pt-3">
-                <h6 class="float-left text-dark">热门试题</h6>
+                <h6 class="float-left text-dark">热门题库</h6>
                 <div class="nav nav-tabs float-right" id="nav-tab" role="tablist">
                   <a class="nav-link rounded-lg text-dark font-size-14 py-1 ml-2 active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">月</a>
                   <a class="nav-link rounded-lg text-dark font-size-14 py-1 ml-2" id="nav-profile-tab" data-toggle="tab" href="#nav-profile" role="tab" aria-controls="nav-profile" aria-selected="false">周</a>
