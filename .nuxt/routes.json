@@ -3,84 +3,72 @@
     "name": "ranking",
     "path": "/ranking",
     "component": "E:\\\\WorkerCV_NuxtJS\\\\pages\\\\ranking\\\\index.vue",
-    "chunkName": "pages/ranking/index",
-    "_name": "_0117d169"
+    "chunkName": "pages/ranking/index"
   },
   {
     "name": "recruit",
     "path": "/recruit",
     "component": "E:\\\\WorkerCV_NuxtJS\\\\pages\\\\recruit\\\\index.vue",
-    "chunkName": "pages/recruit/index",
-    "_name": "_59566161"
+    "chunkName": "pages/recruit/index"
   },
   {
     "name": "template",
     "path": "/template",
     "component": "E:\\\\WorkerCV_NuxtJS\\\\pages\\\\template\\\\index.vue",
-    "chunkName": "pages/template/index",
-    "_name": "_4e3de45b"
+    "chunkName": "pages/template/index"
   },
   {
     "name": "tool",
     "path": "/tool",
     "component": "E:\\\\WorkerCV_NuxtJS\\\\pages\\\\tool\\\\index.vue",
-    "chunkName": "pages/tool/index",
-    "_name": "_1a2155fd"
+    "chunkName": "pages/tool/index"
   },
   {
     "name": "topic",
     "path": "/topic",
     "component": "E:\\\\WorkerCV_NuxtJS\\\\pages\\\\topic\\\\index.vue",
-    "chunkName": "pages/topic/index",
-    "_name": "_32d777e0"
+    "chunkName": "pages/topic/index"
   },
   {
     "name": "recruit-id",
     "path": "/recruit/:id",
     "component": "E:\\\\WorkerCV_NuxtJS\\\\pages\\\\recruit\\\\_id.vue",
-    "chunkName": "pages/recruit/_id",
-    "_name": "_97c16fee"
+    "chunkName": "pages/recruit/_id"
   },
   {
     "name": "template-tag",
     "path": "/template/:tag",
     "component": "E:\\\\WorkerCV_NuxtJS\\\\pages\\\\template\\\\_tag\\\\index.vue",
-    "chunkName": "pages/template/_tag/index",
-    "_name": "_e172cb40"
+    "chunkName": "pages/template/_tag/index"
   },
   {
     "name": "tool-id",
     "path": "/tool/:id",
     "component": "E:\\\\WorkerCV_NuxtJS\\\\pages\\\\tool\\\\_id.vue",
-    "chunkName": "pages/tool/_id",
-    "_name": "_55d298b6"
+    "chunkName": "pages/tool/_id"
   },
   {
     "name": "topic-id",
     "path": "/topic/:id",
     "component": "E:\\\\WorkerCV_NuxtJS\\\\pages\\\\topic\\\\_id.vue",
-    "chunkName": "pages/topic/_id",
-    "_name": "_f0f7eb10"
+    "chunkName": "pages/topic/_id"
   },
   {
     "name": "template-tag-p-tagPage",
     "path": "/template/:tag/p/:tagPage?",
     "component": "E:\\\\WorkerCV_NuxtJS\\\\pages\\\\template\\\\_tag\\\\p\\\\_tagPage.vue",
-    "chunkName": "pages/template/_tag/p/_tagPage",
-    "_name": "_4f37ed08"
+    "chunkName": "pages/template/_tag/p/_tagPage"
   },
   {
     "name": "template-tag-id",
     "path": "/template/:tag/:id",
     "component": "E:\\\\WorkerCV_NuxtJS\\\\pages\\\\template\\\\_tag\\\\_id.vue",
-    "chunkName": "pages/template/_tag/_id",
-    "_name": "_1e77b4c8"
+    "chunkName": "pages/template/_tag/_id"
   },
   {
     "name": "index",
     "path": "/",
     "component": "E:\\\\WorkerCV_NuxtJS\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_44ea2655"
+    "chunkName": "pages/index"
   }
 ]
