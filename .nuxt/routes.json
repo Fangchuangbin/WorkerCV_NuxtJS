@@ -2,121 +2,73 @@
   {
     "name": "ranking",
     "path": "/ranking",
-<<<<<<< HEAD
-    "component": "F:\\\\WorkerCV_NuxtJS\\\\pages\\\\ranking\\\\index.vue",
-=======
     "component": "E:\\\\workercv-nuxtjs\\\\pages\\\\ranking\\\\index.vue",
->>>>>>> 1b8dc94bf263273f286f2cf6d91677749a2161c2
     "chunkName": "pages/ranking/index"
   },
   {
     "name": "recruit",
     "path": "/recruit",
-<<<<<<< HEAD
-    "component": "F:\\\\WorkerCV_NuxtJS\\\\pages\\\\recruit\\\\index.vue",
-=======
     "component": "E:\\\\workercv-nuxtjs\\\\pages\\\\recruit\\\\index.vue",
->>>>>>> 1b8dc94bf263273f286f2cf6d91677749a2161c2
     "chunkName": "pages/recruit/index"
   },
   {
     "name": "template",
     "path": "/template",
-<<<<<<< HEAD
-    "component": "F:\\\\WorkerCV_NuxtJS\\\\pages\\\\template\\\\index.vue",
-=======
     "component": "E:\\\\workercv-nuxtjs\\\\pages\\\\template\\\\index.vue",
->>>>>>> 1b8dc94bf263273f286f2cf6d91677749a2161c2
     "chunkName": "pages/template/index"
   },
   {
     "name": "tool",
     "path": "/tool",
-<<<<<<< HEAD
-    "component": "F:\\\\WorkerCV_NuxtJS\\\\pages\\\\tool\\\\index.vue",
-=======
     "component": "E:\\\\workercv-nuxtjs\\\\pages\\\\tool\\\\index.vue",
->>>>>>> 1b8dc94bf263273f286f2cf6d91677749a2161c2
     "chunkName": "pages/tool/index"
   },
   {
     "name": "topic",
     "path": "/topic",
-<<<<<<< HEAD
-    "component": "F:\\\\WorkerCV_NuxtJS\\\\pages\\\\topic\\\\index.vue",
-=======
     "component": "E:\\\\workercv-nuxtjs\\\\pages\\\\topic\\\\index.vue",
->>>>>>> 1b8dc94bf263273f286f2cf6d91677749a2161c2
     "chunkName": "pages/topic/index"
   },
   {
     "name": "recruit-id",
     "path": "/recruit/:id",
-<<<<<<< HEAD
-    "component": "F:\\\\WorkerCV_NuxtJS\\\\pages\\\\recruit\\\\_id.vue",
-=======
     "component": "E:\\\\workercv-nuxtjs\\\\pages\\\\recruit\\\\_id.vue",
->>>>>>> 1b8dc94bf263273f286f2cf6d91677749a2161c2
     "chunkName": "pages/recruit/_id"
   },
   {
     "name": "template-tag",
     "path": "/template/:tag",
-<<<<<<< HEAD
-    "component": "F:\\\\WorkerCV_NuxtJS\\\\pages\\\\template\\\\_tag\\\\index.vue",
-=======
     "component": "E:\\\\workercv-nuxtjs\\\\pages\\\\template\\\\_tag\\\\index.vue",
->>>>>>> 1b8dc94bf263273f286f2cf6d91677749a2161c2
     "chunkName": "pages/template/_tag/index"
   },
   {
     "name": "tool-id",
     "path": "/tool/:id",
-<<<<<<< HEAD
-    "component": "F:\\\\WorkerCV_NuxtJS\\\\pages\\\\tool\\\\_id.vue",
-=======
     "component": "E:\\\\workercv-nuxtjs\\\\pages\\\\tool\\\\_id.vue",
->>>>>>> 1b8dc94bf263273f286f2cf6d91677749a2161c2
     "chunkName": "pages/tool/_id"
   },
   {
     "name": "topic-id",
     "path": "/topic/:id",
-<<<<<<< HEAD
-    "component": "F:\\\\WorkerCV_NuxtJS\\\\pages\\\\topic\\\\_id.vue",
-=======
     "component": "E:\\\\workercv-nuxtjs\\\\pages\\\\topic\\\\_id.vue",
->>>>>>> 1b8dc94bf263273f286f2cf6d91677749a2161c2
     "chunkName": "pages/topic/_id"
   },
   {
     "name": "template-tag-p-tagPage",
     "path": "/template/:tag/p/:tagPage?",
-<<<<<<< HEAD
-    "component": "F:\\\\WorkerCV_NuxtJS\\\\pages\\\\template\\\\_tag\\\\p\\\\_tagPage.vue",
-=======
     "component": "E:\\\\workercv-nuxtjs\\\\pages\\\\template\\\\_tag\\\\p\\\\_tagPage.vue",
->>>>>>> 1b8dc94bf263273f286f2cf6d91677749a2161c2
     "chunkName": "pages/template/_tag/p/_tagPage"
   },
   {
     "name": "template-tag-id",
     "path": "/template/:tag/:id",
-<<<<<<< HEAD
-    "component": "F:\\\\WorkerCV_NuxtJS\\\\pages\\\\template\\\\_tag\\\\_id.vue",
-=======
     "component": "E:\\\\workercv-nuxtjs\\\\pages\\\\template\\\\_tag\\\\_id.vue",
->>>>>>> 1b8dc94bf263273f286f2cf6d91677749a2161c2
     "chunkName": "pages/template/_tag/_id"
   },
   {
     "name": "index",
     "path": "/",
-<<<<<<< HEAD
-    "component": "F:\\\\WorkerCV_NuxtJS\\\\pages\\\\index.vue",
-=======
     "component": "E:\\\\workercv-nuxtjs\\\\pages\\\\index.vue",
->>>>>>> 1b8dc94bf263273f286f2cf6d91677749a2161c2
     "chunkName": "pages/index"
   }
 ]

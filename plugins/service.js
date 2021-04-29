@@ -4,7 +4,7 @@ axios.defaults.headers.post['Content-Type'] = 'application/json;charset=UTF-8'
 axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*'
 
 let service = axios.create({
-  baseURL: '//192.168.99.14:8080',
+  baseURL: '//localhost:8080',
   timeout: 10000
 })
 
