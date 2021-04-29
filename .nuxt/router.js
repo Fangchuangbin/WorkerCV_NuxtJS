@@ -4,6 +4,7 @@ import { normalizeURL, decode } from '@nuxt/ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
+<<<<<<< HEAD
 const _8ae141f0 = () => interopDefault(import('..\\pages\\ranking\\index.vue' /* webpackChunkName: "pages/ranking/index" */))
 const _12cdef00 = () => interopDefault(import('..\\pages\\recruit\\index.vue' /* webpackChunkName: "pages/recruit/index" */))
 const _788feac8 = () => interopDefault(import('..\\pages\\template\\index.vue' /* webpackChunkName: "pages/template/index" */))
@@ -16,6 +17,20 @@ const _e22d80d2 = () => interopDefault(import('..\\pages\\topic\\_id.vue' /* web
 const _5fedb9c9 = () => interopDefault(import('..\\pages\\template\\_tag\\p\\_tagPage.vue' /* webpackChunkName: "pages/template/_tag/p/_tagPage" */))
 const _6202d289 = () => interopDefault(import('..\\pages\\template\\_tag\\_id.vue' /* webpackChunkName: "pages/template/_tag/_id" */))
 const _5891f9d6 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+=======
+const _5f9e275b = () => interopDefault(import('..\\pages\\ranking\\index.vue' /* webpackChunkName: "pages/ranking/index" */))
+const _9046915a = () => interopDefault(import('..\\pages\\recruit\\index.vue' /* webpackChunkName: "pages/recruit/index" */))
+const _7efb66ae = () => interopDefault(import('..\\pages\\template\\index.vue' /* webpackChunkName: "pages/template/index" */))
+const _86dbd56a = () => interopDefault(import('..\\pages\\tool\\index.vue' /* webpackChunkName: "pages/tool/index" */))
+const _db8922fc = () => interopDefault(import('..\\pages\\topic\\index.vue' /* webpackChunkName: "pages/topic/index" */))
+const _5fc6727b = () => interopDefault(import('..\\pages\\recruit\\_id.vue' /* webpackChunkName: "pages/recruit/_id" */))
+const _3679dfa4 = () => interopDefault(import('..\\pages\\template\\_tag\\index.vue' /* webpackChunkName: "pages/template/_tag/index" */))
+const _68aa231a = () => interopDefault(import('..\\pages\\tool\\_id.vue' /* webpackChunkName: "pages/tool/_id" */))
+const _6377296a = () => interopDefault(import('..\\pages\\topic\\_id.vue' /* webpackChunkName: "pages/topic/_id" */))
+const _620c5056 = () => interopDefault(import('..\\pages\\template\\_tag\\p\\_tagPage.vue' /* webpackChunkName: "pages/template/_tag/p/_tagPage" */))
+const _e6d973d4 = () => interopDefault(import('..\\pages\\template\\_tag\\_id.vue' /* webpackChunkName: "pages/template/_tag/_id" */))
+const _85100fba = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+>>>>>>> 1b8dc94bf263273f286f2cf6d91677749a2161c2
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -35,6 +50,7 @@ export const routerOptions = {
 
   routes: [{
     path: "/ranking",
+<<<<<<< HEAD
     component: _8ae141f0,
     name: "ranking"
   }, {
@@ -80,6 +96,53 @@ export const routerOptions = {
   }, {
     path: "/",
     component: _5891f9d6,
+=======
+    component: _5f9e275b,
+    name: "ranking"
+  }, {
+    path: "/recruit",
+    component: _9046915a,
+    name: "recruit"
+  }, {
+    path: "/template",
+    component: _7efb66ae,
+    name: "template"
+  }, {
+    path: "/tool",
+    component: _86dbd56a,
+    name: "tool"
+  }, {
+    path: "/topic",
+    component: _db8922fc,
+    name: "topic"
+  }, {
+    path: "/recruit/:id",
+    component: _5fc6727b,
+    name: "recruit-id"
+  }, {
+    path: "/template/:tag",
+    component: _3679dfa4,
+    name: "template-tag"
+  }, {
+    path: "/tool/:id",
+    component: _68aa231a,
+    name: "tool-id"
+  }, {
+    path: "/topic/:id",
+    component: _6377296a,
+    name: "topic-id"
+  }, {
+    path: "/template/:tag/p/:tagPage?",
+    component: _620c5056,
+    name: "template-tag-p-tagPage"
+  }, {
+    path: "/template/:tag/:id",
+    component: _e6d973d4,
+    name: "template-tag-id"
+  }, {
+    path: "/",
+    component: _85100fba,
+>>>>>>> 1b8dc94bf263273f286f2cf6d91677749a2161c2
     name: "index"
   }],
 
