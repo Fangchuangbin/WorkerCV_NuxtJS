@@ -1,10 +1,10 @@
 import axios from 'axios'
 
-axios.defaults.headers['X-Requested-With'] = 'XMLHttpRequest'
-axios.defaults.headers.post['Content-Type'] = 'text/plain;charset=UTF-8'
+axios.defaults.headers.post['Content-Type'] = 'application/json;charset=UTF-8'
+axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*'
 
 let service = axios.create({
-  baseURL: 'http://192.168.0.5:7001',
+  baseURL: '//192.168.99.14:8080',
   timeout: 10000
 })
 

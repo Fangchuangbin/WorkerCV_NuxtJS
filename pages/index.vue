@@ -319,7 +319,7 @@
 </template>
 
 <script>
-import { getHead } from '@/api/settings'
+import { userLogin } from '@/api/user'
 
 export default {
   data() {
@@ -328,11 +328,11 @@ export default {
     }
   },
   mounted() {
-    getHead().then(res => {
-        console.log(res)
-      }).catch(err => {
-        console.log(err)
-      })
+    // userLogin().then(res => {
+    //   console.log(res)
+    // }).catch(err => {
+    //   console.log(err)
+    // })
   }
 }
 </script>

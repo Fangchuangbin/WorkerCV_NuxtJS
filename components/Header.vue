@@ -39,7 +39,7 @@
               用户中心
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">登录</a>
+              <a class="dropdown-item" href="#" @click="userLogin()">登录</a>
               <a class="dropdown-item" href="#">注册</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">重置密码</a>
@@ -55,18 +55,31 @@
   </header>
 </template>
 <script>
+import { userLogin } from '@/api/user'
+
 export default {
   data() {
     return {
       pathname: null,
-      test: true
+      test: true,
+      num: 1
     }
   },
   mounted() {
     if(process.client) {
       this.pathname = document.location.pathname.split('/')[1]
     }
+
     
+  },
+  methods: {
+    userLogin() {
+      userLogin().then((res) => {
+        console.log(res)
+      }).catch(err => {
+        console.log(err)
+      })
+    }
   }
 }
 </script>

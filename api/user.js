@@ -1,10 +1,14 @@
 import request from '@/plugins/service'
 
-// 获取头部信息
-export const getHead = () => {
+// 用户登录
+export const userLogin = (data) => {
   return request({
-    url: '/head',
-    method: 'get'
+    url: '/api/user/login',
+    method: 'post',
+    data: {
+      phone: "13184845054",
+      password: "123456789"
+    }
   })
 }
 
