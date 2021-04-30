@@ -1,27 +1,14 @@
 {
   "Footer": {
-<<<<<<< HEAD
-    "description": "Auto imported from F:/WorkerCV_NuxtJS/components/Footer.vue"
+    "description": "Auto imported from F:/workercv-nuxtjs/components/Footer.vue"
   },
   "LazyFooter": {
-    "description": "Auto imported from F:/WorkerCV_NuxtJS/components/Footer.vue"
+    "description": "Auto imported from F:/workercv-nuxtjs/components/Footer.vue"
   },
   "Header": {
-    "description": "Auto imported from F:/WorkerCV_NuxtJS/components/Header.vue"
+    "description": "Auto imported from F:/workercv-nuxtjs/components/Header.vue"
   },
   "LazyHeader": {
-    "description": "Auto imported from F:/WorkerCV_NuxtJS/components/Header.vue"
-=======
-    "description": "Auto imported from E:/workercv-nuxtjs/components/Footer.vue"
-  },
-  "LazyFooter": {
-    "description": "Auto imported from E:/workercv-nuxtjs/components/Footer.vue"
-  },
-  "Header": {
-    "description": "Auto imported from E:/workercv-nuxtjs/components/Header.vue"
-  },
-  "LazyHeader": {
-    "description": "Auto imported from E:/workercv-nuxtjs/components/Header.vue"
->>>>>>> 1b8dc94bf263273f286f2cf6d91677749a2161c2
+    "description": "Auto imported from F:/workercv-nuxtjs/components/Header.vue"
   }
 }

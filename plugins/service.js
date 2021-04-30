@@ -19,12 +19,12 @@ service.interceptors.request.use(config => {
 service.interceptors.response.use(res => {
   if(res.status == 200) {
     if(res.data.code !== 20000) {
-      return { code: res.data.code, message: res.data.message }
+      return res.data
     } else {
       return res.data
     }
   } else {
-    return { code: 40004, message: '发生未知错误，请重试！' }
+    return { code: 40004, message: '发生未知错误' }
   }
 })
 
