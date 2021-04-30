@@ -39,8 +39,13 @@
               用户中心
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+<<<<<<< HEAD
               <a class="dropdown-item" href="#" data-toggle="modal" data-target="#loginModal">登录</a>
               <a class="dropdown-item" href="#">注册</a>
+=======
+              <a class="dropdown-item" href="javascript:void(0);" data-toggle="modal" data-target="#userLoginModal">登录</a>
+              <a class="dropdown-item" href="javascript:void(0);" data-toggle="modal" data-target="#userRegisterModal">注册</a>
+>>>>>>> 67eca5e5ffc4bcad1059f589dafad1e30f75735e
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">重置密码</a>
             </div>
@@ -53,17 +58,26 @@
       </div>
     </nav>
     <!-- 登录 -->
+<<<<<<< HEAD
     <div class="modal fade" id="loginModal" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
             <h5 class="modal-title" id="loginModalLabel">登录</h5>
+=======
+    <div class="modal fade mt-5" id="userLoginModal" tabindex="-1" aria-labelledby="userLoginModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="userLoginModalLabel">用户登录</h5>
+>>>>>>> 67eca5e5ffc4bcad1059f589dafad1e30f75735e
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
             <div class="form-group">
+<<<<<<< HEAD
               <label for="exampleInputEmail1">手机号</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
               <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
@@ -76,6 +90,59 @@
           <div class="modal-footer">
             <button type="button" class="btn btn-dark">登录</button>
             <button type="button" class="btn btn-outline-dark" data-dismiss="modal">取消</button>
+=======
+              <label for="phone">手机号码</label>
+              <input type="text" class="form-control" v-model="userLogin.phone" placeholder="请输入手机号码...">
+            </div>
+            <div class="form-group">
+              <label for="password">密码</label>
+              <input type="password" class="form-control" v-model="userLogin.password" placeholder="请输入密码...">
+              <small id="emailHelp" class="form-text text-muted">忘记密码？<a class="text-body" href="#">重置密码</a></small>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" checked class="form-check-input" id="rememberPassword">
+              <label class="form-check-label font-size-14" for="rememberPassword">保持登录</label>
+            </div>
+          </div>
+          <div class="modal-footer justify-content-left">
+            <button type="button" class="btn btn-dark" @click="login()">登录</button>
+            <button type="button" class="btn btn-outline-dark" id="showUserRegisterModal">前往注册</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 注册 -->
+    <div class="modal fade mt-5" id="userRegisterModal" tabindex="-1" aria-labelledby="userRegisterModallLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="userRegisterModalLabel">用户注册</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="form-group">
+              <label for="phone">手机号码</label>
+              <input type="text" class="form-control" v-model="userRegister.phone" placeholder="请输入手机号码...">
+            </div>
+            <div class="form-group">
+              <label for="password">密码</label>
+              <input type="password" class="form-control" v-model="userRegister.firstPassword" placeholder="请输入密码...">
+            </div>
+            <div class="form-group">
+              <label for="password">确认密码</label>
+              <input type="password" class="form-control" v-model="userRegister.secondPassword" placeholder="请再次输入密码...">
+            </div>
+            <div class="form-check">
+              <input type="checkbox" checked class="form-check-input" id="rememberPassword" @click="rememberPassword = !rememberPassword">
+              <label class="form-check-label font-size-14" for="rememberPassword">立刻登录</label>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-dark" @click="register()">注册</button>
+            <button type="button" class="btn btn-outline-dark" id="openUserLoginModal">返回登录</button>
+>>>>>>> 67eca5e5ffc4bcad1059f589dafad1e30f75735e
           </div>
         </div>
       </div>
@@ -88,25 +155,42 @@ import { userLogin } from '@/api/user'
 export default {
   data() {
     return {
-      pathname: null,
-      test: true,
-      num: 1
+      pathname: '', // 路径名
+      userLogin: { //登录
+        phone: '',
+        password: ''
+      },
+      userRegister: { // 注册
+        phone: '',
+        firstPassword: '',
+        secondPassword: ''
+      }
     }
   },
   mounted() {
-    if(process.client) {
-      this.pathname = document.location.pathname.split('/')[1]
-    }
-
-    
+    if(process.client) { this.pathname = document.location.pathname.split('/')[1] }
   },
   methods: {
-    userLogin() {
-      userLogin().then((res) => {
-        console.log(res)
+    // 登录
+    login() {
+      console.log(this.userLogin.phone)
+      userLogin({
+        phone: this.userLogin.phone,
+        password: this.userLogin.password
+      }).then((res) => {
+        if(res.code == 20000) {
+          alert('登录成功');
+        }else{
+          alert('账号或密码错误');
+        }
       }).catch(err => {
         console.log(err)
       })
+    },
+
+    //用户注册
+    register() {
+      console.log(this.userRegister);
     }
   }
 }

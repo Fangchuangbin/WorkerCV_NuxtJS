@@ -12,8 +12,13 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
+<<<<<<< HEAD
 import nuxt_plugin_plugin_6e938162 from 'nuxt_plugin_plugin_6e938162' // Source: .\\components\\plugin.js (mode: 'all')
 import nuxt_plugin_axios_2d621c1c from 'nuxt_plugin_axios_2d621c1c' // Source: .\\axios.js (mode: 'all')
+=======
+import nuxt_plugin_plugin_2e157cce from 'nuxt_plugin_plugin_2e157cce' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_axios_6b7735f1 from 'nuxt_plugin_axios_6b7735f1' // Source: .\\axios.js (mode: 'all')
+>>>>>>> 67eca5e5ffc4bcad1059f589dafad1e30f75735e
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -59,7 +64,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"极速简历 WorkerCV - HR推荐智能简历工具,实习生简历模板,求职简历模板下载","htmlAttrs":{"lang":"zh-CN"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"keywords","name":"keywords","content":"极速简历,简历模板工具,求职简历模板,实习生简历模板"},{"hid":"description","name":"description","content":"极速简历WorkerCV提供各行业求职简历模板免费下载,是一个专业的智能简历制作工具.还有智能简历优化建议和求职简历定制服务,以及大量简历制作攻略和求职攻略."}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002Fbootstrap@4.5.0\u002Fdist\u002Fcss\u002Fbootstrap.min.css"},{"rel":"stylesheet","href":"\u002Fcss\u002Fstyle.css"}],"script":[{"src":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002Fjquery@3.5.1\u002Fdist\u002Fjquery.slim.min.js"},{"src":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002Fpopper.js@1.16.0\u002Fdist\u002Fumd\u002Fpopper.min.js"},{"src":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002Fbootstrap@4.5.0\u002Fdist\u002Fjs\u002Fbootstrap.min.js"}],"style":[]},
+    head: {"title":"极速简历 WorkerCV - HR推荐智能简历工具,实习生简历模板,求职简历模板下载","htmlAttrs":{"lang":"zh-CN"},"meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"keywords","name":"keywords","content":"极速简历,简历模板工具,求职简历模板,实习生简历模板"},{"hid":"description","name":"description","content":"极速简历WorkerCV提供各行业求职简历模板免费下载,是一个专业的智能简历制作工具.还有智能简历优化建议和求职简历定制服务,以及大量简历制作攻略和求职攻略."}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","href":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002Fbootstrap@4.5.0\u002Fdist\u002Fcss\u002Fbootstrap.min.css"},{"rel":"stylesheet","href":"\u002Fcss\u002Fstyle.css"}],"script":[{"src":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002Fjquery@3.5.1\u002Fdist\u002Fjquery.slim.min.js"},{"src":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002Fpopper.js@1.16.0\u002Fdist\u002Fumd\u002Fpopper.min.js"},{"src":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002Fbootstrap@4.5.0\u002Fdist\u002Fjs\u002Fbootstrap.min.js"},{"src":"\u002Fjs\u002Fmain.js"}],"style":[]},
 
     router,
     nuxt: {
@@ -173,12 +178,21 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
+<<<<<<< HEAD
   if (typeof nuxt_plugin_plugin_6e938162 === 'function') {
     await nuxt_plugin_plugin_6e938162(app.context, inject)
   }
 
   if (typeof nuxt_plugin_axios_2d621c1c === 'function') {
     await nuxt_plugin_axios_2d621c1c(app.context, inject)
+=======
+  if (typeof nuxt_plugin_plugin_2e157cce === 'function') {
+    await nuxt_plugin_plugin_2e157cce(app.context, inject)
+  }
+
+  if (typeof nuxt_plugin_axios_6b7735f1 === 'function') {
+    await nuxt_plugin_axios_6b7735f1(app.context, inject)
+>>>>>>> 67eca5e5ffc4bcad1059f589dafad1e30f75735e
   }
 
   // Lock enablePreview in context
