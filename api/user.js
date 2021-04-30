@@ -1,6 +1,6 @@
 import request from '@/plugins/service'
 
-// 用户登录
+// 登录
 export const userLogin = (data) => {
   return request({
     url: '/api/user/login',
@@ -9,14 +9,14 @@ export const userLogin = (data) => {
   })
 }
 
-// 登录
-// export function login (data) {
-//   return request({
-//     url: '/user/login',
-//     method: 'post',
-//     data: data
-//   })
-// }
+// 注册
+export const userRegister = (data) => {
+  return request({
+    url: '/api/user/register',
+    method: 'post',
+    data: data
+  })
+}
 
 // export function getUser (params) {
 //   return request({

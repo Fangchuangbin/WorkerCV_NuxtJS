@@ -57,19 +57,19 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="userLoginModalLabel">用户登录</h5>
+            <h5 class="modal-title font-size-16" id="userLoginModalLabel">用户登录</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            <div class="form-group">
-              <label for="phone">手机号码</label>
-              <input type="text" class="form-control" v-model="userLogin.phone" placeholder="请输入手机号码...">
+            <div class="form-group mb-2">
+              <label class="font-size-14" for="phone">手机号码</label>
+              <input type="text" class="form-control form-control-sm" v-model="userLogin.phone" placeholder="请输入手机号码...">
             </div>
-            <div class="form-group">
-              <label for="password">密码</label>
-              <input type="password" class="form-control" v-model="userLogin.password" placeholder="请输入密码...">
+            <div class="form-group mb-2">
+              <label class="font-size-14" for="password">密码</label>
+              <input type="password" class="form-control form-control-sm" v-model="userLogin.password" placeholder="请输入密码...">
               <small id="emailHelp" class="form-text text-muted">忘记密码？<a class="text-body" href="#">重置密码</a></small>
             </div>
             <div class="form-check">
@@ -78,8 +78,8 @@
             </div>
           </div>
           <div class="modal-footer justify-content-left">
-            <button type="button" class="btn btn-dark" @click="login()">登录</button>
-            <button type="button" class="btn btn-outline-dark" id="showUserRegisterModal">前往注册</button>
+            <button type="button" class="btn btn-sm btn-dark" @click="login()">登录</button>
+            <button type="button" class="btn btn-sm btn-outline-dark" id="showUserRegisterModal">前往注册</button>
           </div>
         </div>
       </div>
@@ -89,32 +89,36 @@
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="userRegisterModalLabel">用户注册</h5>
+            <h5 class="modal-title font-size-16" id="userRegisterModalLabel">用户注册</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            <div class="form-group">
-              <label for="phone">手机号码</label>
-              <input type="text" class="form-control" v-model="userRegister.phone" placeholder="请输入手机号码...">
+            <div class="form-group mb-2">
+              <label class="font-size-14" for="phone">手机号码</label>
+              <input type="text" class="form-control form-control-sm" v-model="userRegister.phone" placeholder="请输入手机号码...">
             </div>
-            <div class="form-group">
-              <label for="password">密码</label>
-              <input type="password" class="form-control" v-model="userRegister.firstPassword" placeholder="请输入密码...">
+            <div class="form-group mb-2">
+              <label class="font-size-14" for="phone">姓名</label>
+              <input type="text" class="form-control form-control-sm" v-model="userRegister.realname" placeholder="请输入真实姓名...">
             </div>
-            <div class="form-group">
-              <label for="password">确认密码</label>
-              <input type="password" class="form-control" v-model="userRegister.secondPassword" placeholder="请再次输入密码...">
+            <div class="form-group mb-2">
+              <label class="font-size-14" for="firstPassword">密码</label>
+              <input type="password" class="form-control form-control-sm" v-model="userRegister.firstPassword" placeholder="请输入密码...">
+            </div>
+            <div class="form-group mb-2">
+              <label class="font-size-14" for="secondPassword">确认密码</label>
+              <input type="password" class="form-control form-control-sm" v-model="userRegister.secondPassword" placeholder="请再次输入密码...">
             </div>
             <div class="form-check">
-              <input type="checkbox" checked class="form-check-input" id="rememberPassword" @click="rememberPassword = !rememberPassword">
-              <label class="form-check-label font-size-14" for="rememberPassword">立刻登录</label>
+              <input type="checkbox" checked class="form-check-input" id="rememberLogin" @click="rememberPassword = !rememberPassword">
+              <label class="form-check-label font-size-14" for="rememberLogin">立刻登录</label>
             </div>
           </div>
           <div class="modal-footer">
-            <button type="button" class="btn btn-dark" @click="register()">注册</button>
-            <button type="button" class="btn btn-outline-dark" id="openUserLoginModal">返回登录</button>
+            <button type="button" class="btn btn-sm btn-dark" @click="register()">注册</button>
+            <button type="button" class="btn btn-sm btn-outline-dark" id="openUserLoginModal">返回登录</button>
           </div>
         </div>
       </div>
@@ -122,8 +126,7 @@
   </header>
 </template>
 <script>
-import { userLogin } from '@/api/user'
-
+import { userLogin, userRegister } from '@/api/user'
 export default {
   data() {
     return {
@@ -134,6 +137,7 @@ export default {
       },
       userRegister: { // 注册
         phone: '',
+        realname: '',
         firstPassword: '',
         secondPassword: ''
       }
@@ -143,27 +147,52 @@ export default {
     if(process.client) { this.pathname = document.location.pathname.split('/')[1] }
   },
   methods: {
+
     // 登录
     login() {
-      console.log(this.userLogin.phone)
       userLogin({
         phone: this.userLogin.phone,
         password: this.userLogin.password
       }).then((res) => {
-        if(res.code == 20000) {
-          alert('登录成功');
+        if(res.data.code == 20000) {
+          $('#userLoginModal').modal('hide')
+          // document.getElementById('__nuxt').appendChild(<div class="alert alert-success" role="alert">A simple success alert—check it out!</div>)
+          
+          alert('登录成功')
         }else{
-          alert('账号或密码错误');
+          alert('账号或密码错误')
         }
-      }).catch(err => {
+      }).catch((err) => {
         console.log(err)
       })
     },
 
     //用户注册
     register() {
-      console.log(this.userRegister);
+      if(this.userRegister.phone == '' || this.userRegister.realname == '' || this.userRegister.firstPassword == '' || this.userRegister.secondPassword == '') {
+        alert('请填写完整信息')
+      }else if(this.userRegister.firstPassword !== this.userRegister.secondPassword) {
+        alert('密码不一致')
+      }else{
+        userRegister({
+          phone: this.userRegister.phone,
+          realname: this.userRegister.realname,
+          password: this.userRegister.secondPassword
+        }).then((res) => {
+          if(res.data.code !== 20000) {
+            alert(res.data.msg)
+            this.$router.push({
+              name: 'template'
+            })
+          }else{
+            alert(res.data.msg)
+          }
+        }).catch((err) => {
+          console.log(err)
+        })
+      }
     }
+
   }
 }
 </script>

@@ -319,8 +319,6 @@
 </template>
 
 <script>
-import { userLogin } from '@/api/user'
-
 export default {
   data() {
     return {
@@ -328,11 +326,6 @@ export default {
     }
   },
   mounted() {
-    // userLogin().then(res => {
-    //   console.log(res)
-    // }).catch(err => {
-    //   console.log(err)
-    // })
   }
 }
 </script>

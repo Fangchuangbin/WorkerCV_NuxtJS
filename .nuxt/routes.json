@@ -2,121 +2,85 @@
   {
     "name": "ranking",
     "path": "/ranking",
-<<<<<<< HEAD
     "component": "F:\\\\workercv-nuxtjs\\\\pages\\\\ranking\\\\index.vue",
-=======
-    "component": "E:\\\\workercv-nuxtjs\\\\pages\\\\ranking\\\\index.vue",
->>>>>>> 67eca5e5ffc4bcad1059f589dafad1e30f75735e
-    "chunkName": "pages/ranking/index"
+    "chunkName": "pages/ranking/index",
+    "_name": "_1915b4fa"
   },
   {
     "name": "recruit",
     "path": "/recruit",
-<<<<<<< HEAD
     "component": "F:\\\\workercv-nuxtjs\\\\pages\\\\recruit\\\\index.vue",
-=======
-    "component": "E:\\\\workercv-nuxtjs\\\\pages\\\\recruit\\\\index.vue",
->>>>>>> 67eca5e5ffc4bcad1059f589dafad1e30f75735e
-    "chunkName": "pages/recruit/index"
+    "chunkName": "pages/recruit/index",
+    "_name": "_715444f2"
   },
   {
     "name": "template",
     "path": "/template",
-<<<<<<< HEAD
     "component": "F:\\\\workercv-nuxtjs\\\\pages\\\\template\\\\index.vue",
-=======
-    "component": "E:\\\\workercv-nuxtjs\\\\pages\\\\template\\\\index.vue",
->>>>>>> 67eca5e5ffc4bcad1059f589dafad1e30f75735e
-    "chunkName": "pages/template/index"
+    "chunkName": "pages/template/index",
+    "_name": "_35fc72ea"
   },
   {
     "name": "tool",
     "path": "/tool",
-<<<<<<< HEAD
     "component": "F:\\\\workercv-nuxtjs\\\\pages\\\\tool\\\\index.vue",
-=======
-    "component": "E:\\\\workercv-nuxtjs\\\\pages\\\\tool\\\\index.vue",
->>>>>>> 67eca5e5ffc4bcad1059f589dafad1e30f75735e
-    "chunkName": "pages/tool/index"
+    "chunkName": "pages/tool/index",
+    "_name": "_bc58f7e8"
   },
   {
     "name": "topic",
     "path": "/topic",
-<<<<<<< HEAD
     "component": "F:\\\\workercv-nuxtjs\\\\pages\\\\topic\\\\index.vue",
-=======
-    "component": "E:\\\\workercv-nuxtjs\\\\pages\\\\topic\\\\index.vue",
->>>>>>> 67eca5e5ffc4bcad1059f589dafad1e30f75735e
-    "chunkName": "pages/topic/index"
+    "chunkName": "pages/topic/index",
+    "_name": "_5527d7e1"
   },
   {
     "name": "recruit-id",
     "path": "/recruit/:id",
-<<<<<<< HEAD
     "component": "F:\\\\workercv-nuxtjs\\\\pages\\\\recruit\\\\_id.vue",
-=======
-    "component": "E:\\\\workercv-nuxtjs\\\\pages\\\\recruit\\\\_id.vue",
->>>>>>> 67eca5e5ffc4bcad1059f589dafad1e30f75735e
-    "chunkName": "pages/recruit/_id"
+    "chunkName": "pages/recruit/_id",
+    "_name": "_22b2dbda"
   },
   {
     "name": "template-tag",
     "path": "/template/:tag",
-<<<<<<< HEAD
     "component": "F:\\\\workercv-nuxtjs\\\\pages\\\\template\\\\_tag\\\\index.vue",
-=======
-    "component": "E:\\\\workercv-nuxtjs\\\\pages\\\\template\\\\_tag\\\\index.vue",
->>>>>>> 67eca5e5ffc4bcad1059f589dafad1e30f75735e
-    "chunkName": "pages/template/_tag/index"
+    "chunkName": "pages/template/_tag/index",
+    "_name": "_71fdc1af"
   },
   {
     "name": "tool-id",
     "path": "/tool/:id",
-<<<<<<< HEAD
     "component": "F:\\\\workercv-nuxtjs\\\\pages\\\\tool\\\\_id.vue",
-=======
-    "component": "E:\\\\workercv-nuxtjs\\\\pages\\\\tool\\\\_id.vue",
->>>>>>> 67eca5e5ffc4bcad1059f589dafad1e30f75735e
-    "chunkName": "pages/tool/_id"
+    "chunkName": "pages/tool/_id",
+    "_name": "_584b1974"
   },
   {
     "name": "topic-id",
     "path": "/topic/:id",
-<<<<<<< HEAD
     "component": "F:\\\\workercv-nuxtjs\\\\pages\\\\topic\\\\_id.vue",
-=======
-    "component": "E:\\\\workercv-nuxtjs\\\\pages\\\\topic\\\\_id.vue",
->>>>>>> 67eca5e5ffc4bcad1059f589dafad1e30f75735e
-    "chunkName": "pages/topic/_id"
+    "chunkName": "pages/topic/_id",
+    "_name": "_6adc5e89"
   },
   {
     "name": "template-tag-p-tagPage",
     "path": "/template/:tag/p/:tagPage?",
-<<<<<<< HEAD
     "component": "F:\\\\workercv-nuxtjs\\\\pages\\\\template\\\\_tag\\\\p\\\\_tagPage.vue",
-=======
-    "component": "E:\\\\workercv-nuxtjs\\\\pages\\\\template\\\\_tag\\\\p\\\\_tagPage.vue",
->>>>>>> 67eca5e5ffc4bcad1059f589dafad1e30f75735e
-    "chunkName": "pages/template/_tag/p/_tagPage"
+    "chunkName": "pages/template/_tag/p/_tagPage",
+    "_name": "_72c21d17"
   },
   {
     "name": "template-tag-id",
     "path": "/template/:tag/:id",
-<<<<<<< HEAD
     "component": "F:\\\\workercv-nuxtjs\\\\pages\\\\template\\\\_tag\\\\_id.vue",
-=======
-    "component": "E:\\\\workercv-nuxtjs\\\\pages\\\\template\\\\_tag\\\\_id.vue",
->>>>>>> 67eca5e5ffc4bcad1059f589dafad1e30f75735e
-    "chunkName": "pages/template/_tag/_id"
+    "chunkName": "pages/template/_tag/_id",
+    "_name": "_5fc33852"
   },
   {
     "name": "index",
     "path": "/",
-<<<<<<< HEAD
     "component": "F:\\\\workercv-nuxtjs\\\\pages\\\\index.vue",
-=======
-    "component": "E:\\\\workercv-nuxtjs\\\\pages\\\\index.vue",
->>>>>>> 67eca5e5ffc4bcad1059f589dafad1e30f75735e
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_5dc068b8"
   }
 ]

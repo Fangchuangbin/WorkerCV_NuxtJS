@@ -13,13 +13,13 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css' },
+      { rel: 'stylesheet', href: '//cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css' },
       { rel: 'stylesheet', href: '/css/style.css' }
     ],
     script: [
-      { src: 'https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js' },
-      { src: 'https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js' },
-      { src: 'https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js' },
+      { src: '//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js' },
+      { src: '//cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js' },
+      { src: '//cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js' },
       { src: '/js/main.js' }
     ]
   },
@@ -30,6 +30,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components

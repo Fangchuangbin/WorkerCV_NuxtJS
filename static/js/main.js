@@ -11,4 +11,8 @@ $(document).ready(() => {
     $('#userRegisterModal').modal('hide');
     $('#userLoginModal').modal('show');
   })
+
+  function success() {
+    $(document).append('<div class="alert alert-success" role="alert">A simple success alert—check it out!</div>');
+  }
 })
